@@ -1,0 +1,5 @@
+{
+  "name": "AgriConnect",
+  "description": "A bilingual web application to connect farmers and buyers directly, enabling agricultural trading, communication, and providing AI-assisted advice in English and Urdu.",
+  "requestFramePermissions": []
+}
