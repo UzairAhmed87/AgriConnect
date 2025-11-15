@@ -1,6 +1,6 @@
 import { PlantIdHealthAssessment } from '../types';
 
-const API_KEY = '5PYmozrN4SBtNv5pIZvedl2En1nP5lZrJZ5m8AlW9abtI3B9FD';
+const API_KEY = process.env.Plant_ID_API_KEY ;
 const API_URL = 'https://plant.id/api/v3/health_assessment';
 
 const toBase64 = (file: File): Promise<string> => 

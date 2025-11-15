@@ -1,6 +1,6 @@
 import { WeatherData } from '../types';
 
-const API_KEY = '06b72c92869c17c791f5a0dce4b009fd';
+const API_KEY = process.env.OPEN_WEATHER_API_KEY ;
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 const GEO_URL = 'https://api.openweathermap.org/geo/1.0/direct';
 
